@@ -3,8 +3,8 @@ pipeline {
 
     stages {
         stage('Build') {
-            stage(' checkout') {
-                git checkout scm
+             steps {
+                echo 'Running tests'
             }
         }
 
